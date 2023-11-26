@@ -1,0 +1,64 @@
+/* MainComponent.css */
+
+/* Style for Search Bar */
+.search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    margin-right: 5px;
+  }
+  
+  .search-bar button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for Banner */
+  .banner {
+    margin-bottom: 20px;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style for Doctors Cards */
+  .doctors-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .doctor-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: calc(33.33% - 20px); /* Adjust card width as needed */
+    box-sizing: border-box;
+  }
+  
+  .doctor-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .doctor-card h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .doctor-card p {
+    margin: 0;
+    color: #888;
+  }
+  
