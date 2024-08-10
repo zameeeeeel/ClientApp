@@ -84,6 +84,7 @@ export function Navbar(props){
 </nav>
 &nbsp;
 <Outlet/>
+  <h2>Enjoy maadi</h2>
         </>
     )
 }
