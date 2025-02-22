@@ -84,7 +84,8 @@ export function Navbar(props){
 </nav>
 &nbsp;
 <Outlet/>
-  <h2>Enjoy maadi</h2>
+  <h2>Aura Dev</h2>
+  
         </>
     )
 }
